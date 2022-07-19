@@ -6,7 +6,7 @@ using Yxl.Serializer.Configurations;
 namespace Yxl.Serializer.Json.Configurations
 {
     /// <summary>
-    /// EasyCaching options extensions.
+    /// Newtonsoft.Json  options extensions.
     /// </summary>
     public static class JsonSerializerOptionsExtensions
     {

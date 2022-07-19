@@ -16,7 +16,7 @@ namespace Yxl.Serializer.Protobuf
 
         /// <summary>
         /// Initializes a new instance of the
-        /// <see cref="T:EasyCaching.Serialization.Protobuf.DefaultProtobufSerializer"/> class.
+        /// <see cref="T:Yxl.Serializer.Protobuf.DefaultProtobufSerializer"/> class.
         /// </summary>
         /// <param name="name">Name.</param>
         public DefaultProtobufSerializer(string name)

@@ -25,7 +25,7 @@ namespace Yxl.Serializer.SystemTextJson
         public string Name => _name;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:EasyCaching.Serialization.SystemTextJson.DefaultJsonSerializer"/> class.
+        /// Initializes a new instance of the <see cref="T:Yxl.Serializer.SystemTextJson.DefaultTextJsonSerializer"/> class.
         /// </summary>
         /// <param name="name">Name.</param>
         /// <param name="serializerSettings">serializerSettings.</param>

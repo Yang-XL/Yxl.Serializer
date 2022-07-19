@@ -7,7 +7,7 @@ namespace Yxl.Serializer.SystemTextJson.Configurations
 {
 
     /// <summary>
-    /// EasyCaching options extensions.
+    /// System.Test.Json options extensions.
     /// </summary>
     public static class TextJsonOptionsExtensions
     {

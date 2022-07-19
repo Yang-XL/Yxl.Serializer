@@ -21,7 +21,7 @@ namespace Yxl.Serializer.SystemTextJson.Configurations
         private readonly Action<JsonSerializerOptions> _configure;
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="T:EasyCaching.Serialization.SystemTextJson.JsonOptionsExtension"/> class.
+        /// Initializes a new instance of the <see cref="T:Yxl.Serializer.SystemTextJson.Configurations.TextJsonOptionsExtension"/> class.
         /// </summary>
         /// <param name="name">Name.</param>
         /// <param name="configure">Configure.</param>
