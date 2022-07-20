@@ -1,9 +1,9 @@
-整合常用的序列化方式
-使用方式
- _services.AddYxlSerializer(options =>
-            {
-                options.WithJson();
-                options.WithMessagePack();
-                options.WithProtobuf();
-                options.WithSystemTextJson();
-            });
+鏁村悎甯哥敤鐨勫簭鍒楀寲鏂瑰紡<br/>
+浣跨敤鏂瑰紡<br/>
+ _services.AddYxlSerializer(options =><br/>
+            {<br/>
+                options.WithJson();<br/>
+                options.WithMessagePack();<br/>
+                options.WithProtobuf();<br/>
+                options.WithSystemTextJson();<br/>
+            });<br/>
