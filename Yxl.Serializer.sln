@@ -13,7 +13,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yxl.Serializer.MessagePack"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{082BA215-4E48-480E-9704-06018850025C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yxl.Serializer.SystemTextJson", "src\Yxl.Serializer.SystemTextJson\Yxl.Serializer.SystemTextJson.csproj", "{A62E3170-DE0C-4586-9007-4DC3E362E63A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Yxl.Serializer.SystemTextJson", "src\Yxl.Serializer.SystemTextJson\Yxl.Serializer.SystemTextJson.csproj", "{A62E3170-DE0C-4586-9007-4DC3E362E63A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{9AEBBFA7-E8B0-4F6D-9C05-C7A149822D85}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yxl.Serializer.Json.Tests", "tests\Yxl.Serializer.Json.Tests\Yxl.Serializer.Json.Tests.csproj", "{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4670DAF5-D9DC-4BD7-90F7-8A2420C6BF06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockData", "MockData\MockData.csproj", "{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yxl.Serializer.Tests", "tests\Yxl.Serializer.Tests\Yxl.Serializer.Tests.csproj", "{CC66F0E3-D436-47DA-A1EA-2D748D437207}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +54,18 @@ Global
 		{A62E3170-DE0C-4586-9007-4DC3E362E63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A62E3170-DE0C-4586-9007-4DC3E362E63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A62E3170-DE0C-4586-9007-4DC3E362E63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC66F0E3-D436-47DA-A1EA-2D748D437207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC66F0E3-D436-47DA-A1EA-2D748D437207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC66F0E3-D436-47DA-A1EA-2D748D437207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC66F0E3-D436-47DA-A1EA-2D748D437207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +76,9 @@ Global
 		{945E82E6-338B-4FCB-8D04-11AEFF36249E} = {082BA215-4E48-480E-9704-06018850025C}
 		{4B653718-3330-495A-8D8A-43A22FEB3F8F} = {082BA215-4E48-480E-9704-06018850025C}
 		{A62E3170-DE0C-4586-9007-4DC3E362E63A} = {082BA215-4E48-480E-9704-06018850025C}
+		{65ABAD04-CF32-4D1E-96E1-A6366A24D1D5} = {4670DAF5-D9DC-4BD7-90F7-8A2420C6BF06}
+		{8ADB2021-A4EF-4833-9E9E-99AA930E2FF0} = {4670DAF5-D9DC-4BD7-90F7-8A2420C6BF06}
+		{CC66F0E3-D436-47DA-A1EA-2D748D437207} = {4670DAF5-D9DC-4BD7-90F7-8A2420C6BF06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9295FBDD-752B-449C-A12C-093B8602BE82}

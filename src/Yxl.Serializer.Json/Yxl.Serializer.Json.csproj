@@ -3,11 +3,17 @@
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 		<PackageId>Yxl.Serializer.Json</PackageId>
+		<Authors>Yxl</Authors>
+		<Description>基于Newtonsoft.Json 的Json序列化</Description>
+		<PackageProjectUrl>https://github.com/Yang-XL/Yxl.Serializer</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Yang-XL/Yxl.Serializer.git</RepositoryUrl>
+		<PackageTags>serializer;json;Newtonsoft;</PackageTags>
+		<PackageReleaseNotes>增加Provider</PackageReleaseNotes>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
 	</ItemGroup>
 	<ItemGroup>
-	  <ProjectReference Include="..\Yxl.Serializer\Yxl.Serializer.csproj" />
+		<ProjectReference Include="..\Yxl.Serializer\Yxl.Serializer.csproj" />
 	</ItemGroup>
 </Project>

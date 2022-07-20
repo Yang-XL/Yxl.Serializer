@@ -10,4 +10,6 @@ namespace Yxl.Serializer.Configurations
         /// <param name="services">Services.</param>
         void AddServices(IServiceCollection services);
     }
+
+  
 }

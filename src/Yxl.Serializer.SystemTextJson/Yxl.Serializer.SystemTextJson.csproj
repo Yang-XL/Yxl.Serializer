@@ -4,6 +4,11 @@
 		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 
 		<PackageId>Yxl.Serializer.SystemTextJson</PackageId>
+		<Authors>Yxl</Authors>
+		<Description>基于SystemTextJson 的序列化</Description>
+		<PackageProjectUrl>https://github.com/Yang-XL/Yxl.Serializer</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Yang-XL/Yxl.Serializer.git</RepositoryUrl>
+		<PackageTags>serializer;Json;System.Text.Json;</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>

@@ -4,6 +4,12 @@
 		<TargetFrameworks>netstandard2.0;net6.0</TargetFrameworks>
 
 		<PackageId>Yxl.Serializer.MessagePack</PackageId>
+		<Authors>Yxl</Authors>
+		<Description>基于MessagePack 的序列化</Description>
+		<PackageProjectUrl>https://github.com/Yang-XL/Yxl.Serializer</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Yang-XL/Yxl.Serializer.git</RepositoryUrl>
+		<PackageTags>serializer;MessagePack;</PackageTags>
+		<PackageReleaseNotes>增加Provider</PackageReleaseNotes>
 	</PropertyGroup>
 	<ItemGroup>
 		<PackageReference Include="MessagePack" Version="2.3.85" />
